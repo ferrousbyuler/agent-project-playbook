@@ -1,0 +1,15 @@
+name: checks
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  drift-and-scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Drift inventory
+        run: python3 scripts/check-drift.py
+      - name: Secret pattern scan
+        run: python3 scripts/check-secrets.py

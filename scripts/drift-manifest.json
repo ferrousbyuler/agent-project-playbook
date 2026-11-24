@@ -1,0 +1,44 @@
+{
+  "description": "Repo-relative files that must exist. When LIVE_ROOT is set, optional live_path values are hashed and compared to the repo copy. live_path is relative to LIVE_ROOT. Do not put absolute personal paths in this file.",
+  "files": [
+    {
+      "repo": "PROMPT.md"
+    },
+    {
+      "repo": "AGENTS.md"
+    },
+    {
+      "repo": "README.md"
+    },
+    {
+      "repo": "openspec/specs/output-guard/spec.md"
+    },
+    {
+      "repo": "openspec/config.yaml"
+    },
+    {
+      "repo": "docs/adr/0001-quarantine-not-delete.md"
+    },
+    {
+      "repo": "docs/adr/TEMPLATE.md"
+    },
+    {
+      "repo": "docs/one-shot-plan.md"
+    },
+    {
+      "repo": "docs/postmortems/TEMPLATE.md"
+    },
+    {
+      "repo": "docs/validation/evidence.schema.json"
+    },
+    {
+      "repo": "docs/graphify.md"
+    },
+    {
+      "repo": "scripts/check-drift.py"
+    },
+    {
+      "repo": "scripts/check-secrets.py"
+    }
+  ]
+}

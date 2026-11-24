@@ -1,0 +1,17 @@
+# Secrets and environment
+.env
+.env.*
+!.env.example
+
+# Local / generated
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+graphify-out/
+quarantine/
+*.bak-*
+
+# Editor
+.idea/
+.vscode/

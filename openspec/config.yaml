@@ -1,0 +1,9 @@
+schema: spec-driven
+
+# After you create a repository from this template, replace the context
+# below with short, project-specific hard rules. Do not put secrets here.
+context: |
+  Follow PROMPT.md and AGENTS.md. Enforce anything that must not slip
+  with a check. Never print keys or open .env, never git clean, never
+  overwrite outputs that already pass the guard, and quarantine artifacts
+  instead of deleting them.

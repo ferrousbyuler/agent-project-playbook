@@ -1,0 +1,27 @@
+{
+  "schema": "agent-project-playbook-evidence/v1",
+  "title": "Example: output-guard unit tests",
+  "when": "2026-11-22 16:00:00 CT",
+  "ok": true,
+  "change": "example-input-coverage",
+  "commands": [
+    {
+      "cmd": "python3 -m pytest tests/test_output_guard.py -q",
+      "exit_code": 0,
+      "duration_s": 0.4,
+      "notes": "missing-input case and good case; no live backend"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "docs/validation/example-evidence.json",
+      "sha256": null,
+      "bytes": null
+    }
+  ],
+  "wrote_live_job_files": false,
+  "deferred": [
+    "Live integration test until a handoff window"
+  ],
+  "summary": "Example record only. Replace with a real run; leave sha256/bytes blank only when the artifact is this file itself."
+}
